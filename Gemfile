@@ -73,3 +73,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "neighbor", "~> 0.2.3"
+
+gem "ruby-openai", "~> 4.2"
