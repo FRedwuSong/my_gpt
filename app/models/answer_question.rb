@@ -11,7 +11,7 @@ class AnswerQuestion
     message_to_chat_api(<<~CONTENT)
       Answer the question based on the context below, and
       if the question can't be answered based on the context,
-      say \"I don't know\".
+      say \"I don't know now\".
 
       Context:#{context}
       ---
@@ -36,7 +36,7 @@ class AnswerQuestion
       :embedding, question_embedding,
       distance: 'euclidean'
     )
-    context = nearest_items.first.to_s
+    nearest_items.first.text
   end
 
   def embedding_for(question)

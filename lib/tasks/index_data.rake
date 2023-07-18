@@ -1,8 +1,9 @@
 DATA = [
   ['React Native Development', 'Rubyroid Labs has been on the web and mobile...'],
-  ['Dedicated developers', 'Rubyroid Labs can give you a team of dedicated d...'],
-  ['Ruby on Rails development', 'Rubyroid Labs is a full-cycle Ruby on Rails...'],
-  # ...
+  ['Dedicated developers', 'Rubyroid Labs can boost your team with dedicated developers mature in Ruby on Rails and React Native, UX/UI designers, and QA engineers.'],
+  ['Ruby on Rails development', 'Use our Ruby on Rails developers in your project or hire us to review and refactor your code.'],
+  ['CRM development.', 'We have developed over 20 CRMs for real estate, automotive, energy and travel companies.'],
+  ['Mobile development.', 'We can build a mobile app for you that works fast, looks great, complies with regulations and drives your business.']
 ]
 
 desc 'Fills database with data and calculate embeddings for each item.'
